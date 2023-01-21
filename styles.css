@@ -11,7 +11,7 @@ h1, p{
 
 form{
     width: 70%;
-    min-width: 500px;
+    min-width: 400px;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -54,7 +54,8 @@ textarea, select, input[type="radio"], input[type="checkbox"]{
 }
 
 input[type="submit"]{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     width: 100%;
     padding: 10px;
     background-color: #141425;
