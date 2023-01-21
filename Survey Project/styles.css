@@ -1,0 +1,81 @@
+body{
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, p{
+    margin: 1em auto;
+    text-align: center;
+}
+
+form{
+    width: 70%;
+    min-width: 500px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="email"]{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #141425;
+    color: #f5f6f7;
+    border: none;
+}
+
+fieldset{
+    background-color: #0c0c16;
+    border-color: white;
+}
+
+label{
+    display: block;
+}
+
+textarea{
+    padding: 0;
+    resize: none;
+    width: 100%;
+    margin: 0;
+}
+
+select{
+    margin: 1em auto;
+    width: 100%;
+}
+
+textarea, select, input[type="radio"], input[type="checkbox"]{
+    background-color: #141425;
+    color: #f5f6f7;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #141425;
+    border-color: white;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="submit"]:hover{
+    background-color: #0c0c16;
+}
+
+.thanks{
+    margin: 20% auto;
+    text-align: center;
+}
+
+footer{
+    color: rgba(255, 255, 255, 0.2);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
